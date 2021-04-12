@@ -1,0 +1,23 @@
+h2 {
+  text-align: center;
+}
+button {
+  margin-left: 48.3%;
+}
+#container {
+  margin: 20px auto;
+  width: 450px;
+  display: grid;
+  grid-template-columns: repeat(9, auto);
+}
+.grid {
+  height: 50px;
+  width: 50px;
+  box-sizing: border-box;
+  padding: 5px;
+  background-color: rgba(151, 140, 140, 0.795);
+  border: 2px solid black;
+  margin: 1px;
+  border-radius: 3px;
+  cursor: pointer;
+}
